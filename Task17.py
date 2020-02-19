@@ -3,14 +3,14 @@ y = 'Paris'
 z = 'Kyrgyzstan'
 offices = ('Here is a list:\n {}\n {}\n {}'.format (x,y,z))
 print(offices)
-print(input('Enter x if Kazakhstan, y if Paris and z if Kyrgyzstan'))
+choice = (input('Enter x if Kazakhstan, y if Paris and z if Kyrgyzstan'))
 
 
-if x:
+if choice = x:
     with open('kz.txt','w') as file:
         file.write ('this is a google office in Kazakhstan')
     print(file)
-elif y:
+elif choice == y:
     with open('pr.txt','w') as file1:
         file1.write ('this is a google office in Paris')
     print(file1)
